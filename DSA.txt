@@ -1,0 +1,19 @@
+DSA
+============
+Basic Level1
+=========
+
+Basic startup problems
+==========================
+1. Check whether the number is prime or not
+	-prime number is a number which is divisble by 1 and number itself and exactly has 2 factors.
+2. Finding the square root of a number
+	- 
+	
+	
+Introduction to Number System & Bit Manipulation
+=============================================
+=> Bit manipulation problems
+	- single number leetcode 136 - https://leetcode.com/problems/single-number/
+
+=> 
