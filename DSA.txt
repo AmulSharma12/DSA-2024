@@ -27,3 +27,7 @@ Introduction to Number System & Bit Manipulation
 	
 5. Unset the ith Bit
 	- number & (~(1 << ithBit))
+
+6. count the number of set bit
+
+7. Single Number 3 LeetCode 260  - https://leetcode.com/problems/single-number-iii/
