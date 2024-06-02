@@ -16,5 +16,14 @@ Introduction to Number System & Bit Manipulation
 => Bit manipulation problems
 
 1. single number leetcode 136 - https://leetcode.com/problems/single-number/
-2. Checking ith bit set/unset in number.
+2. Checking ith bit set in number. 
+	- number & (1 << ithBit) != 0
 	
+3. Set the ith Bit 
+	- number | (1 << ithBit)
+	
+4. Toggle the ith Bit 
+	-  number ^ (1 << ithBit)
+	
+5. Unset the ith Bit
+	- number & (~(1 << ithBit))
