@@ -1,4 +1,4 @@
-package DSA_Basic_Level1.BitManipulation;
+package DSA_Basic_Level1.S1_BitManipulation;
 import java.util.Scanner;
 public class P4_ToggleTheIthBit {
     public static void main(String[] args){

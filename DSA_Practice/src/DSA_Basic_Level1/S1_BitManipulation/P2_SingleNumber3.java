@@ -1,4 +1,4 @@
-package DSA_Basic_Level1.BitManipulation;
+package DSA_Basic_Level1.S1_BitManipulation;
 import java.util.Scanner;
 //LeetCode 260  - https://leetcode.com/problems/single-number-iii/
 
