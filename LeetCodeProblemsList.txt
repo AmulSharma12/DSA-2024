@@ -9,3 +9,6 @@ https://leetcode.com/problems/reverse-string
 Day - 2
 https://leetcode.com/problems/relative-sort-array/
 https://leetcode.com/problems/merge-strings-alternately/ (LeetCode - 75)
+
+Day - 3
+LC75 => https://leetcode.com/problems/sort-colors/  (Daily Challenge)
