@@ -12,3 +12,7 @@ https://leetcode.com/problems/merge-strings-alternately/ (LeetCode - 75)
 
 Day - 3
 LC75 => https://leetcode.com/problems/sort-colors/  (Daily Challenge)
+
+
+Day - 4
+LC - 2037 => https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/ (Daily Challenge)
