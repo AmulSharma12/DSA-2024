@@ -16,3 +16,7 @@ LC75 => https://leetcode.com/problems/sort-colors/  (Daily Challenge)
 
 Day - 4
 LC - 2037 => https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/ (Daily Challenge)
+
+
+Day - 5
+LC - 945 => https://leetcode.com/problems/minimum-increment-to-make-array-unique/ (Daily Challenge)
