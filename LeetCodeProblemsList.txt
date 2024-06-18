@@ -20,3 +20,6 @@ LC - 2037 => https://leetcode.com/problems/minimum-number-of-moves-to-seat-every
 
 Day - 5
 LC - 945 => https://leetcode.com/problems/minimum-increment-to-make-array-unique/ (Daily Challenge)
+
+Day - 6
+LC - 338 => https://leetcode.com/problems/counting-bits/
