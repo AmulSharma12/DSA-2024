@@ -23,3 +23,17 @@ LC - 945 => https://leetcode.com/problems/minimum-increment-to-make-array-unique
 
 Day - 6
 LC - 338 => https://leetcode.com/problems/counting-bits/
+
+
+Day - 7 (Striver sheet) - Arrays
+LC - 73 - https://leetcode.com/problems/set-matrix-zeroes/
+
+
+=========
+https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2 (Know Basic Maths)
+
+Day - 8
+LC - 7 - https://leetcode.com/problems/reverse-integer/
+
+
+
