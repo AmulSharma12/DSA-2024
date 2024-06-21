@@ -36,4 +36,10 @@ Day - 8
 LC - 7 - https://leetcode.com/problems/reverse-integer/
 
 
+Day - 9
+LC - 9 - https://leetcode.com/problems/palindrome-number/  
+	Approach1- using stringbuilder reverse method 
+	Approach2- by converting a number using mod and division to reverse then compair it by original number.
+
+
 
