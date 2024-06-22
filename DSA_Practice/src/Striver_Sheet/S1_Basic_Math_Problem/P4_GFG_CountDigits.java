@@ -11,7 +11,7 @@ public class P4_GFG_CountDigits {
     }
 
 
-    //GFG - countDigits problem
+    //GFG - countDigit
     private static int evenlyDivides(int N){
         // code here
         int number = N;
@@ -19,7 +19,7 @@ public class P4_GFG_CountDigits {
 
         while(number > 0){
             int digit = number % 10;
-            if(digit != 0(N%digit) == 0)  count++;
+            if(digit != 0 && (N%digit) == 0)  count++;
             number /= 10;
         }
         return count;
