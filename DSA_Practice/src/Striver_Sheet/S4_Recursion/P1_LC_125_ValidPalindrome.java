@@ -9,10 +9,28 @@ public class P1_LC_125_ValidPalindrome {
         System.out.println(isPalindrome(s));
     }
 
+    //Approach 1 - for checking string and its reverse if equal it is palindrome otherwise not
     public static boolean isPalindrome(String s) {
         String actualString = convertString(s);
         String reversedString = new StringBuilder(actualString).reverse().toString();
         return actualString.equals(reversedString);
+    }
+
+    //Approach 2 - for checking palindrome or not
+    public static boolean isPalindrome2(String s) {
+        String actualString = convertString(s);
+        int n = actualString.length();
+        int ind = 0;
+        while(ind < n/2){
+            if(actualString.charAt(ind) != actualString.charAt(n-ind-1))
+                return false;
+            ind++;
+        }
+
+        //it means all the corresponsding character equals and the loop break means all
+        //the character being checked
+        return true;
+
     }
 
 
