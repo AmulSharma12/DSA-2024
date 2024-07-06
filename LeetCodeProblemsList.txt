@@ -62,4 +62,5 @@ Approach1
 	- using two pointer variable prev and current variable i.e. 0 & 1 by Looping from 2 till N calculating sum updated prev & curr 
 	- return the result in curr as it points to the updated nth fibbonaci number
 Approach2 
-	- 
+	- base case will be the first two value rest will be computed based on recursion call for n-1 & n-2 & 
+	- by summing both will get the updated nth fibbonaci number
