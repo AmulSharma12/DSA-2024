@@ -69,4 +69,5 @@ Problem 3 - Basic print problem using recursion & backtracking
 	- print name till n times
 	- print 1 to n using both recursion & backtracking
 	- print n to 1 using both recursion & backtracking
-	
+	- Sum of first n natural numbers (using parameterised & functional recursion)
+	- factorial of number (using parameterised & functional recurson)
