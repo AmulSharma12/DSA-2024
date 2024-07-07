@@ -64,3 +64,9 @@ Approach1
 Approach2 
 	- base case will be the first two value rest will be computed based on recursion call for n-1 & n-2 & 
 	- by summing both will get the updated nth fibbonaci number
+	
+Problem 3 - Basic print problem using recursion & backtracking
+	- print name till n times
+	- print 1 to n using both recursion & backtracking
+	- print n to 1 using both recursion & backtracking
+	
