@@ -54,23 +54,29 @@ Problem2 - Count digits
 
 Recursion Problems
 =====================
-LeetCode125 - https://leetcode.com/problems/valid-palindrome/
-Approach  1 & 2 
-
-LeetCode 509 - https://leetcode.com/problems/fibonacci-number/
-Approach1 
-	- using two pointer variable prev and current variable i.e. 0 & 1 by Looping from 2 till N calculating sum updated prev & curr 
-	- return the result in curr as it points to the updated nth fibbonaci number
-Approach2 
-	- base case will be the first two value rest will be computed based on recursion call for n-1 & n-2 & 
-	- by summing both will get the updated nth fibbonaci number
+Question 1 - 
+	- LeetCode125 - https://leetcode.com/problems/valid-palindrome/
+	- converting into the alphanumeric character & then 
+	=> Approach1
+		- by reversing the string and compairing by original string if equals then palindrome otherwise not.
+	=> Approach2
+		- by using recursion checking each corresponding character (i,n-i-1) if not equals it is not palindrome till less than mid(size/2)
+Question 2 - 
+	- LeetCode 509 - https://leetcode.com/problems/fibonacci-number/
+	=> Approach1 
+		- using two pointer variable prev and current variable i.e. 0 & 1 by Looping from 2 till N calculating sum updated prev & curr 
+		- return the result in curr as it points to the updated nth fibbonaci number
+	=> Approach2 
+		- base case will be the first two value rest will be computed based on recursion call for n-1 & n-2 & 
+		- by summing both will get the updated nth fibbonaci number
 	
-Problem 3 - Basic print problem using recursion & backtracking
-	- print name till n times
-	- print 1 to n using both recursion & backtracking
-	- print n to 1 using both recursion & backtracking
-	- Sum of first n natural numbers (using parameterised & functional recursion)
-	- factorial of number (using parameterised & functional recurson)
+=> Problems - Basic print problem using recursion & backtracking
+Question 3 - print name till n times
+Question 4 - print 1 to n using both recursion & backtracking
+Question 5 - print n to 1 using both recursion & backtracking
+Question 6 - Sum of first n natural numbers (using parameterised & functional recursion)
+Question 7 - factorial of number (using parameterised & functional recurson)
 	
 Question 8 - Reverse an array using recursion
-Question 9 - Check whether the string is palindrome or not
+Question 9 - Check whether the string is palindrome or not	
+	- LC125 - valid palindrome(Same as above you can revise)
