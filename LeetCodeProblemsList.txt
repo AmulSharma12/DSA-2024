@@ -71,3 +71,6 @@ Problem 3 - Basic print problem using recursion & backtracking
 	- print n to 1 using both recursion & backtracking
 	- Sum of first n natural numbers (using parameterised & functional recursion)
 	- factorial of number (using parameterised & functional recurson)
+	
+Question 8 - Reverse an array using recursion
+Question 9 - Check whether the string is palindrome or not
