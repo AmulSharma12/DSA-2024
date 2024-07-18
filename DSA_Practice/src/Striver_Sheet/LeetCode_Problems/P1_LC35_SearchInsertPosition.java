@@ -12,6 +12,7 @@ public class P1_LC35_SearchInsertPosition {
         }
 
         System.out.println("index " + searchInsert(nums,target));
+        System.out.println("index " + searchInsertUsingBinarySearch(nums,target));
     }
 
     private static  int searchInsert(int[] nums, int target) {
@@ -31,5 +32,25 @@ public class P1_LC35_SearchInsertPosition {
         if(index == -1) index = n;
 
         return index;
+    }
+
+
+    //Using BinarySearch approach
+    private static int searchInsertUsingBinarySearch(int[] nums, int target) {
+        int n = nums.length;
+        int start = 0;
+        int end = n-1;
+        int insertPosition = -1;
+        while(start <= end){
+            int mid = start + (end-start)/2;
+            if(nums[mid] == target) {
+                insertPosition = mid;
+                break;
+            }else if(target > nums[mid]) start =  mid + 1;
+            else end = mid - 1;
+        }
+
+        if(insertPosition != -1)    return insertPosition;
+        return start;
     }
 }
