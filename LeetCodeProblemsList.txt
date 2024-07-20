@@ -87,6 +87,7 @@ Question P9 - Printing all the subsequences
 Question P10 - Print All subsequence whose sum equals to target
 Question P11 - Print Single subsequence whose sum equals to target
 Question P12 - Count the subsequence whose sum equals to target
+Question P13 - Combination sum (LC-39) - https://leetcode.com/problems/combination-sum/description/
 
 LeetCode Problems
 =========================
