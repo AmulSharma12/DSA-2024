@@ -80,9 +80,13 @@ Question 7 - factorial of number (using parameterised & functional recurson)
 Question 8 - Reverse an array using recursion
 Question 9 - Check whether the string is palindrome or not	
 	- LC125 - valid palindrome(Same as above you can revise)
-Question 10 - Printing all the subsequences
+
+Subsequences pattern problems
+==============================
+Question P9 - Printing all the subsequences
 Question P10 - Print All subsequence whose sum equals to target
 Question P11 - Print Single subsequence whose sum equals to target
+Question P12 - Count the subsequence whose sum equals to target
 
 LeetCode Problems
 =========================
