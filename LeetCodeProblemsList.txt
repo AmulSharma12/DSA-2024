@@ -89,6 +89,7 @@ Question P11 - Print Single subsequence whose sum equals to target
 Question P12 - Count the subsequence whose sum equals to target
 Question P13 - Combination sum (LC-39) - https://leetcode.com/problems/combination-sum/description/
 Question P14 - Combination sum2(LC- 40) - https://leetcode.com/problems/combination-sum-ii/
+Question P15 - Subsets (LC - 78) - https://leetcode.com/problems/subsets/description/
 
 LeetCode Problems
 =========================
