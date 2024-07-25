@@ -91,7 +91,8 @@ Question P13 - Combination sum (LC-39) - https://leetcode.com/problems/combinati
 Question P14 - Combination sum2(LC- 40) - https://leetcode.com/problems/combination-sum-ii/
 Question P15 - Subsets (LC - 78) - https://leetcode.com/problems/subsets/description/
 Question P16 - Subsets2(LC - 90) - https://leetcode.com/problems/subsets-ii/
-Question P17 - Permutations (LC - 46) - https://leetcode.com/problems/permutations/description/
+Question P17 - Permutations (LC - 46) - https://leetcode.com/problems/permutations/description/ (Approach-1)
+Question P17 -  Permutations (LC - 46) - https://leetcode.com/problems/permutations/description/ (Approach - 2)
 
 
 LeetCode Problems

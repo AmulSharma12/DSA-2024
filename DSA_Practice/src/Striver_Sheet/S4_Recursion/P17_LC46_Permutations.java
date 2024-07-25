@@ -48,4 +48,36 @@ public class P17_LC46_Permutations {
         }
 
     }
+
+
+
+    //-------------------using Approach 2
+    private void findPermutation2(int[] nums, int ind,List<Integer> list, List<List<Integer>> result, int n){
+        //base case
+        if(ind == n-1){
+            List<Integer> ds = new ArrayList<>();
+            for(int i = 0; i<n; i++){
+                ds.add(nums[i]);
+            }
+
+            result.add(new ArrayList<>(ds));
+            return;
+        }
+
+        //recursion call
+        for(int i = ind; i<n; i++){
+            swap(nums,ind,i);
+            // list.add(nums[i]);
+            findPermutation2(nums,ind+1,list,result,n);
+            // list.remove(list.size()-1);
+            swap(nums,ind,i);
+        }
+
+    }
+
+    private void swap(int[] nums, int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
 }
