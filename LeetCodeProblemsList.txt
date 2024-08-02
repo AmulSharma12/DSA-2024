@@ -103,3 +103,5 @@ LeetCode 34 - First and last occurece in sorted array - https://leetcode.com/pro
 
 Blind 75
 ============
+Problem 1 - Contains Duplicate(LC-217) - https://leetcode.com/problems/contains-duplicate/description/
+Problem 2 - Missing Number (LC- 268) - https://leetcode.com/problems/missing-number/description/
