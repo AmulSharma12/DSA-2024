@@ -1,4 +1,5 @@
 package Blind75;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class P2_LC268_MissingNumber {
@@ -12,6 +13,7 @@ public class P2_LC268_MissingNumber {
 
         System.out.println(missingNumber(nums));
         System.out.println("0-----------------------");
+        System.out.println(missingNumber2(nums));
     }
 
         //Approach 1 - using naive solution by taking extra space for tracking
@@ -33,4 +35,24 @@ public class P2_LC268_MissingNumber {
            return missingElement;
 
         }
+
+
+        //Approach 2 - using sorting and directly checcking if the element and the their position is right or not
+        //TC - O(N log(n))
+        //SC - O(1)
+
+    private static int missingNumber2(int[] nums) {
+        int n = nums.length;
+        Arrays.sort(nums);
+        int missingNumber = -1;
+        for(int ind = 0; ind < n; ind++){
+            if(ind != nums[ind]){
+                missingNumber = ind;
+                break;
+            }
+        }
+
+
+        return missingNumber == -1 ? n : missingNumber;
+    }
 }
