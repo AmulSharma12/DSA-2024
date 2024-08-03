@@ -105,3 +105,4 @@ Blind 75
 ============
 Problem 1 - Contains Duplicate(LC-217) - https://leetcode.com/problems/contains-duplicate/description/
 Problem 2 - Missing Number (LC- 268) - https://leetcode.com/problems/missing-number/description/
+Problem 3 - Find All Numbers Disappeared in an Array (LC-448) - https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
