@@ -35,4 +35,15 @@ public class P4_LC136_SingleNumber {
         return singleNumber;
     }
 
+
+    //Approach 2 - using xor O(N) linear time complexity & O(1) space
+    private static int singleNumber2(int[] nums) {
+        int n = nums.length;
+        int singleNumber = 0;
+        for(int element:nums){
+            singleNumber ^= element;
+        }
+        return singleNumber;
+    }
+
 }
