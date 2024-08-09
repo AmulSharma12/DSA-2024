@@ -93,7 +93,7 @@ Question P15 - Subsets (LC - 78) - https://leetcode.com/problems/subsets/descrip
 Question P16 - Subsets2(LC - 90) - https://leetcode.com/problems/subsets-ii/
 Question P17 - Permutations (LC - 46) - https://leetcode.com/problems/permutations/description/ (Approach-1)
 Question P17 -  Permutations (LC - 46) - https://leetcode.com/problems/permutations/description/ (Approach - 2)
-Question P18 - N-Queens (LC-51) - https://leetcode.com/problems/n-queens/
+Question P18 - N-Queens (LC-51) - https://leetcode.com/problems/n-queens/ - Optomised using hashing
 
 
 LeetCode Problems

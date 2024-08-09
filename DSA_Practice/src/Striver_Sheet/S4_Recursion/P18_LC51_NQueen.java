@@ -74,4 +74,46 @@ public class P18_LC51_NQueen {
 
         return result;
     }
+
+    //Approach 2- using hashing - Nqueens
+    public static  List<List<String>> solveNQueens2(int n) {
+        char[][] board = new char[n][n];
+        List<List<String>> result = new ArrayList<>();
+        //dot indicate the emtpy space and Queen represent Q
+        for(int i =0;i<n; i++)
+            for(int j = 0; j<n; j++)
+                board[i][j] = '.';
+        int[] diagonal = new int[n];
+        int[] upperDiagonal = new int[2*n-1];
+        int[] lowerDiagonal = new int[2*n-1];
+        NQueens2(0, result, board,diagonal,upperDiagonal,lowerDiagonal,n);
+
+        return result;
+    }
+
+
+
+    private  static void NQueens2(int col,List<List<String>> result, char[][] board,int[] diagonal,int[] upperDiagonal, int[] lowerDiagonal, int n){
+        //base case
+        if(col == n){
+            result.add(construct(board));
+            return;
+        }
+
+        //recursion call
+        for(int row = 0; row < n; row++){
+            if(diagonal[row] == 0 && lowerDiagonal[row+col] == 0 && upperDiagonal[n-1+col-row] == 0){
+                board[row][col] = 'Q';
+                diagonal[row] = 1;
+                lowerDiagonal[row+col] = 1;
+                upperDiagonal[n-1+col-row] = 1;
+                NQueens2(col+1,result,board,diagonal,upperDiagonal,lowerDiagonal,n);
+                diagonal[row] = 0;
+                lowerDiagonal[row+col] = 0;
+                upperDiagonal[n-1+col-row] = 0;
+                board[row][col] = '.';
+            }
+        }
+    }
+
 }
