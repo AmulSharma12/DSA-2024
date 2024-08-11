@@ -110,3 +110,4 @@ Problem 3 - Find All Numbers Disappeared in an Array (LC-448) - https://leetcode
 Problem 4 - Single Number (LC - 136) - https://leetcode.com/problems/single-number/
 Problem 5 - Climbing Stairs (LC - 70) - https://leetcode.com/problems/climbing-stairs/
 Problem 6 - N-Queens (LC-51)	- https://leetcode.com/problems/n-queens/
+Problem 7 - Squares of sorted array - https://leetcode.com/problems/squares-of-a-sorted-array/description/
