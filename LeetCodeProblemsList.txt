@@ -111,3 +111,8 @@ Problem 4 - Single Number (LC - 136) - https://leetcode.com/problems/single-numb
 Problem 5 - Climbing Stairs (LC - 70) - https://leetcode.com/problems/climbing-stairs/
 Problem 6 - N-Queens (LC-51)	- https://leetcode.com/problems/n-queens/
 Problem 7 - Squares of sorted array - https://leetcode.com/problems/squares-of-a-sorted-array/description/
+
+Binary Search Problem (Leetcode list)
+=================================
+Problem 1 - binary search - https://leetcode.com/problems/binary-search/description/?envType=study-plan-v2&envId=binary-search
+Problem 2 -  LC35 - Search Insert Position - https://leetcode.com/problems/search-insert-position/description/?envType=study-plan-v2&envId=binary-search

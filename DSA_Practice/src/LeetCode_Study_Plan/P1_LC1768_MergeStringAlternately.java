@@ -1,5 +1,5 @@
-package LeetCode75Solution;
-import java.util.Scanner;
+package LeetCode_Study_Plan;
+
 public class P1_LC1768_MergeStringAlternately {
     public static void main(String[] args){
         System.out.println(mergeAlternately("abc", "pqr"));
